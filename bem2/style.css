@@ -1,3 +1,6 @@
+@import "./style.css";
+
+
 @font-face {
   font-display: swap;
   font-family: 'Inter';
@@ -50,17 +53,24 @@ h1 {
   margin: 0;
 }
 
-body {
+body{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #151515;
+  height: 100%;
+}
+
+
+ section{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
   font-family: "Figtree", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #ffffff;
-  background-color: #151515;
 }
 
 

@@ -52,7 +52,13 @@ h1 {
   margin: 0;
 }
 
-body {
+body{
+  background-color: #f4d04e;
+  width: 100%;
+  height: 100%;
+}
+
+section {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -62,7 +68,6 @@ body {
   font-size: 16px;
   line-height: 24px;
   color: #232536;
-  background-color: #f4d04e;
 }
 
 
