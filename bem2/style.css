@@ -1,0 +1,141 @@
+@font-face {
+  font-display: swap;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/inter-v18-latin-regular.woff2') format('woff2'); 
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/inter-v18-latin-600.woff2') format('woff2'); 
+}
+@font-face {
+  font-display: swap; 
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/inter-v18-latin-700.woff2') format('woff2'); 
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+img {
+  display: flex;
+  object-fit: cover;
+}
+
+h1 {
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-family: "Figtree", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  background-color: #151515;
+}
+
+
+.container {
+  display:flex;
+  flex-direction:column;
+  width: 100%;
+  max-width: 384px;
+  height: 522px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.description {
+  width: 100%;
+  max-width: 384px;
+  height: 611px;
+  padding: 40px ;
+  background-color: #1f1f1f;
+  border-radius: 12px;
+}
+
+.description__image {
+  margin-right: 108px;
+  margin-left: 108px;
+  margin-bottom: 24px;
+}
+.description__title {
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+  .description_title__title {
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 36px;
+   }
+.description_title__subtitle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height:21px;
+  color: #c4f82a;
+}
+.description__text {
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  margin-bottom: 24px;
+}
+.description__link {
+  width: 100%;
+  max-width: 304px;
+  height: 289px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.description__site__link {
+  width: 304px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color:#333333;
+  border: none;
+  color: #ffffff;
+  border-radius:8px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  align-items:center;
+}
+
+.hover:hover{
+  background-color: #c4f82a;
+  color: #333333;
+  transition: 0.4s all;
+}
